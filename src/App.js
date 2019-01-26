@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Button } from 'antd';
 import logo from './logo.svg';
 import './App.css';
 
@@ -20,6 +21,9 @@ class App extends Component {
             Learn React
           </a>
         </header>
+        <div>
+             <Button type="primary">Button</Button>
+        </div>
       </div>
     );
   }
